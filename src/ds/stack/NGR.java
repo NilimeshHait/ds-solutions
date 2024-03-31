@@ -5,9 +5,17 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Stack;
 
+
+/**
+ * Nearest Greater element to Right
+ *
+ * INPUT: [4,9,1,0,7,8,2]
+ * OUTPUT: [9, -1, 7, 7, 8, -1, -1]
+ *
+ */
 public class NGR {
     public static void main(String[] args) {
-        ArrayList<Integer> elements=new ArrayList<>(Arrays.asList(1,2,3,4,5));
+        ArrayList<Integer> elements=new ArrayList<>(Arrays.asList(4,9,1,0,7,8,2));
         Stack<Integer> result=new Stack<>();
         List<Integer> aaa=new ArrayList<>();
         for(int i=elements.size()-1;i>=0;i--){

@@ -1,7 +1,8 @@
 # Default ignored files
 /shelf/
-/workspace.xml
+/.idea/workspace.xml
 /*.class
+/*.iml
 /out
 # Generated files
 .idea/**/contentModel.xml
@@ -14,3 +15,4 @@
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
+.idea/**

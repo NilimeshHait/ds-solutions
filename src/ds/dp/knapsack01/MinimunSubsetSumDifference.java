@@ -1,4 +1,4 @@
-package ds.dp;
+package ds.dp.knapsack01;
 
 import java.util.ArrayList;
 import java.util.List;

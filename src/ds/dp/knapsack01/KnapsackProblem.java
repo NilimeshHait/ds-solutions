@@ -1,4 +1,4 @@
-package ds.dp;
+package ds.dp.knapsack01;
 
 /**
  * 0/1 Knapsack problem

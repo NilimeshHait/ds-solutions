@@ -8,7 +8,7 @@ package ds.dp.unboundedKnapsack;
  *        t[i][j]=t[i-1][j];
  */
 
-public class UnboundedKnaksack {
+public class UnboundedKnapsack {
     public static void main(String[] args) {
         int[] weights = {1, 3, 5, 7};
         int[] profit= {4, 3, 6, 8};

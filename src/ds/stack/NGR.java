@@ -1,9 +1,6 @@
 package ds.stack;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 
 /**
@@ -38,7 +35,8 @@ public class NGR {
             result.push(elements.get(i));
 
         }
-        System.out.println(aaa.reversed());
+        Collections.reverse(aaa);
+        System.out.println(aaa);
 
 
     }

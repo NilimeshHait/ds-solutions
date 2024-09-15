@@ -1,4 +1,4 @@
-package ds.dp.dpwithstring;
+package ds.dp.dpwithstringLCS;
 
 /**
  * Longest common Sub-String (with Continuous )

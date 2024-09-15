@@ -1,4 +1,4 @@
-package ds.dp.dpwithstring;
+package ds.dp.dpwithstringLCS;
 
 /**
  * LCS-Longest common Subsequence (without Continuous )

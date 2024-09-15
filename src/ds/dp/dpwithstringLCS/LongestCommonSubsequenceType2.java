@@ -1,4 +1,4 @@
-package ds.dp.dpwithstring;
+package ds.dp.dpwithstringLCS;
 /**
  * Print LCS-Longest common Subsequence (without Continuous )
  * I/P --- Str1 = absdygjgk , str2 = abrhjuigklolllll

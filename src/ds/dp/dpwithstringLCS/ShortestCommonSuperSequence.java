@@ -1,4 +1,4 @@
-package ds.dp.dpwithstring;
+package ds.dp.dpwithstringLCS;
 /**
  * Print Length of The Shortest common Super Sequence
  * I/P --- Str1 = nilimesh , str2 = hait

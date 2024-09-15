@@ -1,4 +1,4 @@
-package ds.dp.dpwithstring;
+package ds.dp.dpwithstringLCS;
 
 /**
  * Minimum Number of Insertion and Deletion to convert String a to String b;

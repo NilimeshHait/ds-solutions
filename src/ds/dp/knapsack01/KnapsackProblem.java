@@ -43,6 +43,7 @@ public class KnapsackProblem {
         KnapsackProblem np=new KnapsackProblem();
         System.out.println("Max profit( Using Recursive):: "+ np.knapsack(weight,profit,max,4));
 
+        int a=np.knapsack(max,profit,weight);
     }
 
     //Recursive Function
@@ -56,4 +57,24 @@ public class KnapsackProblem {
             return knapsack(wt,value,w,n-1);
         }
     }
+
+    //Space-Optimized 1D DP
+    public int knapsack(int W, int[] val, int[] wt) {
+        int n = val.length;
+        int[] dp = new int[W + 1];
+
+        for (int i = 0; i < n; i++) {
+            int wi = wt[i], vi = val[i];
+            // IMPORTANT: iterate w backward for 0/1 knapsack
+            for (int w = W; w >= wi; w--) {
+                dp[w] = Math.max(dp[w], vi + dp[w - wi]);
+                /*for(int k=0;k<dp.length;k++) {
+                    System.out.print(dp[k]+ " ");
+                }
+                System.out.println();*/
+            }
+        }
+        return dp[W];
+    }
+
 }
